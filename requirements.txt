@@ -1,2 +1,6 @@
 pyrax>=1.9.3,<2.0
 netaddr>=0.7.4,<0.8
+
+# to try and git pip closer to a decent package set
+# grab from st2common>=3.4 requirement for oslo.utils
+oslo.utils<5.0,>=4.0.0
